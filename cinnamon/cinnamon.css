@@ -237,9 +237,11 @@ StScrollBar {
   .menu-bottom {
     border-radius: 6px 6px 0 0; }
   .menu-left {
-    border-radius: 0 6px 6px 0; }
+    border-radius: 6px; /* menu rounded corners */
+    /*~~~~border-radius: 0 6px 6px 0; */ }
   .menu-right {
-    border-radius: 6px 0 0 6px; }
+    border-radius: 6px; /* menu rounded corners */
+    /*~~~~border-radius: 6px 0 0 6px; */ }
 
 .popup-sub-menu {
   background-color: #222226;
@@ -1097,9 +1099,11 @@ StScrollBar {
   .menu-bottom .appmenu-sidebar {
     border-radius: 6px 0 0 0; }
   .menu-left .appmenu-sidebar {
-    border-radius: 0; }
+    border-radius: 6px 0 0 6px; /* menu rounded corners */
+    /*~~~~border-radius: 0; */ }
   .menu-right .appmenu-sidebar {
-    border-radius: 0; }
+    border-radius: 0 6px 6px 0; /* menu rounded corners */
+    /*~~~~border-radius: 0; */ }
   .appmenu-sidebar .appmenu-system-button {
     background-color: #494951; }
     .appmenu-sidebar .appmenu-system-button-lock:hover {
@@ -1276,13 +1280,12 @@ StScrollBar {
       padding-left: 1px; }
   .grouped-window-list-item-box:hover, .grouped-window-list-item-box:focus {
     color: #e1e1e1;
-    background-color: rgba(48, 48, 54, 0.85);
-    /*~~~~background-color: #303036;*/ } /*!!!!!!!!!!!!!!!!!!!!!!!!*/
+    background-color: rgba(48, 48, 54, 0.85); /*!!!!!!!!!!!!!!!!!!!!!!!!*/
+    /*~~~~background-color: #303036;*/ } 
   .grouped-window-list-item-box:active, .grouped-window-list-item-box:checked {
     color: #e1e1e1;
-    /*~~~~border-color: #70737a;*/
-    /* brighter highlight for active item box */
-    border-color: rgba(180, 184, 192, 1); }
+    border-color: rgba(180, 184, 192, 1); /* brighter highlight for active item box */
+    /*~~~~border-color: #70737a;*/ }
   .grouped-window-list-item-box .progress {
     background-color: rgba(112, 115, 122, 0.8); }
 
@@ -1315,9 +1318,8 @@ StScrollBar {
 .grouped-window-list-thumbnail-menu {
   color: #e1e1e1;
   border: 1px solid rgba(0, 0, 0, 0);
+  background-color: rgba(34, 34, 38, 0.85); /* transparency for preview */
   /*~~~~background-color: #222226;*/
-  /* transparency for preview */
-  background-color: rgba(34, 34, 38, 0.85);
   border-radius: 3px;
   padding: 0px; }
   .grouped-window-list-thumbnail-menu > StBoxLayout {
