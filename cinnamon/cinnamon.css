@@ -1840,7 +1840,8 @@ StScrollBar {
     background-color: #29292e; }
 
 .dialog {
-  background-color: #222226;
+  background-color: rgba(34, 34, 38, 0.85); /*!!!!!!!!!!!!!!!!*/
+  /*~~~~background-color: #222226;*/
   border-radius: 18px;
   border: 1px solid #303036;
   padding: 18px; }
@@ -1943,7 +1944,8 @@ StScrollBar {
         icon-size: 64px; }
 
 .workspace-switch-osd, .info-osd, .media-keys-osd {
-  background-color: #222226;
+  background-color: rgba(34, 34, 38, 0.85); /*!!!!!!!!!!!!!!!!*/
+  /*~~~~background-color: #222226;*/
   border: 1px solid #303036;
   border-radius: 20px;
   text-align: center;
