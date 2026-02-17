@@ -899,7 +899,8 @@ StScrollBar {
 .switcher-list {
   color: #e1e1e1;
   border: 1px solid #303036;
-  background-color: #1d1d21;
+  background-color: rgba(29, 29, 33, 0.85); /* alt tab switcher transparency */
+  /*~~~~background-color: #1d1d21;*/
   border-radius: 6px;
   padding: 20px; }
   .switcher-list > StBoxLayout {
@@ -1281,7 +1282,7 @@ StScrollBar {
   .grouped-window-list-item-box:hover, .grouped-window-list-item-box:focus {
     color: #e1e1e1;
     background-color: rgba(48, 48, 54, 0.85); /*!!!!!!!!!!!!!!!!!!!!!!!!*/
-    /*~~~~background-color: #303036;*/ } 
+    /*~~~~background-color: #303036;*/ }
   .grouped-window-list-item-box:active, .grouped-window-list-item-box:checked {
     color: #e1e1e1;
     border-color: rgba(180, 184, 192, 1); /* brighter highlight for active item box */
