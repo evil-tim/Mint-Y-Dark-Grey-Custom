@@ -237,9 +237,11 @@ StScrollBar {
   .menu-bottom {
     border-radius: 6px 6px 0 0; }
   .menu-left {
+    margin-left: 5px; /* extra margin from the panel */
     border-radius: 6px; /* menu rounded corners */
     /*~~~~border-radius: 0 6px 6px 0; */ }
   .menu-right {
+    margin-right: 5px; /* extra margin from the panel */
     border-radius: 6px; /* menu rounded corners */
     /*~~~~border-radius: 6px 0 0 6px; */ }
 
@@ -1319,6 +1321,7 @@ StScrollBar {
 .grouped-window-list-thumbnail-menu {
   color: #e1e1e1;
   border: 1px solid rgba(0, 0, 0, 0);
+  margin: 0 5px 0 5px; /* extra margin from the panel */
   background-color: rgba(34, 34, 38, 0.85); /* transparency for preview */
   /*~~~~background-color: #222226;*/
   border-radius: 3px;
