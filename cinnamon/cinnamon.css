@@ -901,7 +901,7 @@ StScrollBar {
 .switcher-list {
   color: #e1e1e1;
   border: 1px solid #303036;
-  background-color: rgba(29, 29, 33, 0.85); /* alt tab switcher transparency */
+  background-color: rgba(29, 29, 33, 0.75); /* alt tab switcher transparency */
   /*~~~~background-color: #1d1d21;*/
   border-radius: 6px;
   padding: 20px; }
@@ -916,7 +916,8 @@ StScrollBar {
       padding: 8px;
       border: 1px solid #70737a; }
     .switcher-list .item-box:selected {
-      background-color: #38383e;
+      background-color: #44444c; /* brighter alt tab switcher selected program highlight */
+      /*~~~~background-color: #38383e;*/
       border: 0px solid #70737a; }
   .switcher-list .thumbnail {
     width: 256px; }
