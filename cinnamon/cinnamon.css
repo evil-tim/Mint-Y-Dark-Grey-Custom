@@ -458,11 +458,11 @@ StScrollBar {
 	background-color: rgba(29, 29, 33, 0.6);
 }
 .panel-left .panelLeft.vertical {
-	margin: 0 3px 20px 0;
+	margin: 0 1px 20px 0;
 	border-radius: 0 0 10px 0;
 }
 .panel-right .panelLeft.vertical {
-	margin: 0 0 20px 3px;
+	margin: 0 0 20px 1px;
 	border-radius: 0 0 0 10px;
 }
 .panel-left .panelCenter.vertical,
@@ -474,11 +474,11 @@ StScrollBar {
 	background-color: rgba(29, 29, 33, 0.6);
 }
 .panel-left .panelRight.vertical {
-	margin: 20px 3px 0 0;
+	margin: 20px 1px 0 0;
 	border-radius: 0 10px 0 0;
 }
 .panel-right .panelRight.vertical {
-	margin: 20px 0 0 3px;
+	margin: 20px 0 0 1px;
 	border-radius: 10px 0 0 0;
 }
 /*~~~~*/
